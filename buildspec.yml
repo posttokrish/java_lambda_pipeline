@@ -9,4 +9,4 @@ phases:
       - cp target/hello-lambda-1.0-SNAPSHOT.jar $CODEBUILD_SRC_DIR/hello-lambda.jar
 artifacts:
   files:
-    - hello-lambda.jar
+    - $CODEBUILD_SRC_DIR/hello-lambda.jar
